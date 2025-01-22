@@ -1,0 +1,270 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: cursive;
+	color: darkgreen;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	color: #333;
+	background-color: #f9f9f9;
+	padding: 0 20px;
+	background-image: url('alarm.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+	background: #4caf50;
+	color: white;
+	padding: 20px 10px;
+	text-align: center;
+	background-image: url('alarmfix.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header nav a {
+	color: white;
+	text-decoration: none;
+	margin: 0 10px;
+	font-weight: bold;
+}
+
+header nav a:hover {
+	text-decoration: underline;
+}
+
+
+#nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+/*    padding: 10px 15px;*/
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    transition: .3s;
+}
+
+#nav a:hover {
+    background-color: #0056b3;
+    filter: grayscale(50%);
+}
+
+#hero {
+	text-align: center;
+	background: #ddd;
+	padding: 50px 20px;
+	margin: 20px 0;
+	border-radius: 10px;
+}
+
+#hero h2 {
+	font-size: 2rem;
+	margin-bottom: 10px;
+}
+
+#hero button {
+	padding: 10px 20px;
+	background: #4caf50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#hero button:hover {
+	background: #45a049;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.content article {
+	flex: 3;
+}
+
+.content aside {
+	flex: 1;
+	background: #f1f1f1;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+main {
+	margin-bottom: 20px;
+}
+
+main article {
+	margin-bottom: 20px;
+}
+
+main h2 {
+	color: #4caf50;
+	margin-bottom: 10px;
+}
+
+aside {
+	max-width: 500px;
+	max-height: 600px;
+	background: #f1f1f1;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 20px 0;
+}
+
+aside h3 {
+	margin-bottom: 10px;
+}
+
+footer {
+	text-align: center;
+	background: white;
+	color: white;
+	padding: 10px 0;
+	margin-top: 20px;
+}
+
+footer a {
+	color: #4caf50;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+/* Styling for the aside section */
+.dokumentasi {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.dokumentasi h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+/* Styling for the slider */
+.slider-container {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;  /* Hide overflow for smooth slide effect */
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    position: relative;
+    width: 100%;
+}
+
+.slider img {
+    width: 100%;          /* Make images take up the full width of the container */
+    height: auto;         /* Maintain aspect ratio */
+    object-fit: cover;    /* Ensure images cover the container space */
+    border-radius: 8px;
+}
+
+
+/* Styling for buttons */
+button {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+
+/*Evaluation*/
+/*.form {
+	box-align: center;
+	text-align: center;
+	display: flex;
+	width: 870px;
+}*/
+/* Styling for Form */
+.form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 900px; /* Optional: max width for better control */
+/*  max-height: 485px;*/
+  margin: 0 auto; /* Centering the form */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.each-column {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+.submit-button {
+	background-color: #007BFF; /* Warna biru */
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+	background-color: #0056b3; /* Warna biru lebih gelap */
+}

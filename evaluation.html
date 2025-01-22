@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>4-0-2</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>ALARM DARURAT</h1>
+		<nav id="nav">
+			<a href="index.html">Home</a>
+			<a href="index.html">Tentang Kami</a>
+			<a href="index.html">Dokumentasi</a>
+			<a href="evaluation.html">Kritik dan Saran</a>
+		</nav>
+	</header>
+	<section id="hero">
+		<h2>Selamat Datang di Website Kamar</h2><br>
+		<h3>00110100 001100000 00110010</h3>
+	</section>
+	<h2 align="center">Form Kritik dan Saran terhadap Kamar Kami</h2>
+	<main class="content">
+		<div class="form" align="center">
+			<form action="index.html" id="form">
+				<div class="each-column">
+					<label for="nama">Nama: </label>
+					<input type="text" name="nama" class="input" id="nama" placeholder="Nama boleh Anonim" required>
+				</div>
+				<div class="each-column">
+					<label for="kritik-saran">Kritik/Saran: </label><br>
+					<textarea name="kritik-saran" id="kritik-saran" placeholder="Ketikkan Kritik/Saran anda terhadap Anggota/Lingkungan Kamar" rows="10" cols="30" required></textarea>
+				</div>
+				<!-- Tambahan Tombol Kirim -->
+				<div class="each-column">
+					<button type="submit" class="submit-button">Kirim</button>
+				</div>
+			</form>
+		</div>
+		<aside class="dokumentasi">
+			<h3>Random Photo</h3>
+			<div class="slider-container">
+				<div class="slider">
+					<img src="foto1.jpeg" alt="foto pertama">
+					<img src="foto2.jpeg" alt="bersama kamar">
+					<img src="foto3.jpeg" alt="bersama yazid">
+					<img src="yazid.jpeg" alt="foto yazid wkwk">
+				</div>
+				<button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+				<button class="next" onclick="moveSlide(1)">&#10095;</button>
+			</div>
+		</aside>
+	</main>
+	<footer>
+		<p>&copy; 2024 Alarm Darurat 402</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
